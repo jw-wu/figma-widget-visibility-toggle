@@ -1,0 +1,16 @@
+{
+  "name": "Visibility toggle",
+  "id": "1371877394422521798",
+  "api": "1.0.0",
+  "editorType": ["figma"],
+  "permissions": [],
+  "containsWidget": true,
+  "main": "dist/code.js",
+  "widgetApi": "1.0.0",
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": [
+      "none"
+    ]
+  }
+}
