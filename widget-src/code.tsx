@@ -69,10 +69,12 @@ function Toggle() {
       <AutoLayout
         verticalAlignItems='center'
         padding={{ left: 0, right: 0, top: padding, bottom: padding }}
-        spacing={24}
+        spacing={fontSize < 12 ? 12 : fontSize}
         height={'hug-contents'}
         hidden={settingsVisible}
       >
+
+        {/* Label */}
 
         <Text
           fontFamily={config.typography.family}
@@ -81,6 +83,9 @@ function Toggle() {
         >
           {label}
         </Text>
+
+
+        {/* Toggle */}
 
         <AutoLayout
           verticalAlignItems='center'

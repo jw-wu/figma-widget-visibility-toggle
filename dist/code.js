@@ -233,7 +233,7 @@
     }, /* @__PURE__ */ figma.widget.h(AutoLayout3, {
       verticalAlignItems: "center",
       padding: { left: 0, right: 0, top: padding, bottom: padding },
-      spacing: 24,
+      spacing: fontSize < 12 ? 12 : fontSize,
       height: "hug-contents",
       hidden: settingsVisible
     }, /* @__PURE__ */ figma.widget.h(Text3, {
